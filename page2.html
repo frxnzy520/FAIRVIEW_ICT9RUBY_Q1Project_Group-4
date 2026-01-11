@@ -1,2 +1,228 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>OBMC Landing Page</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <style>
+    body {
+      background-color: #ffffff;
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .navbar {
+      padding: 15px 30px;
+    }
+
+    .intro {
+      max-width: 1200px;
+      height: 360px;
+      margin: 40px auto;
+      border-radius: 25px;
+      background-image: url('https://obmontessori.orangeapps.ph/landing/obmontessori/images/FV%20Facade.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      box-shadow: 5px 5px 10px 2px rgba(147, 144, 144, 0.5);
+    }
+
+    .welcome-section {
+      text-align: center;
+      max-width: 900px;
+      margin: 70px auto;
+    }
+
+    .welcome-section h2,
+    .welcome-section h1 {
+      font-weight: bold;
+      color: #0048ad;
+      margin-bottom: 20px;
+    }
+
+    .welcome-section u {
+      font-weight: bold;
+      color: #909090;
+    }
+
+    .welcome-section p {
+      font-size: 18px;
+      line-height: 1.7;
+      margin-bottom: 15px;
+    }
+
+    .programs-title {
+      text-align: center;
+      font-weight: bold;
+      color: #0048ad;
+      margin: 80px 0 40px;
+    }
+
+    .program-card {
+      height: 220px;
+      border-radius: 15px;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .program-label {
+      text-align: center;
+      font-weight: bold;
+      font-size: 18px;
+      margin-top: 10px;
+    }
+
+    .program-label small {
+      font-weight: normal;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg bg-white shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#" style="color:#0048ad;">OBMC</a>
+
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item"><a class="nav-link" href="page2.html">HOME</a></li>
+        <li class="nav-item"><a class="nav-link" href="page3.html">ABOUT US</a></li>
+        <li class="nav-item"><a class="nav-link" href="page4.html">ENROLL</a></li>
+        <li class="nav-item"><a class="nav-link" href="page5.html">CONTACT US</a></li>
+      </ul>
+
+      <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Search">
+        <button class="btn btn-light" type="button">Search</button>
+      </form>
+    </div>
+
+    <button class="btn btn-success rounded-pill px-4">My Portal</button>
+  </div>
+</nav>
+
+<section class="welcome-section">
+  <h2>O.B. Montessori Center</h2>
+  <u>___________________________________________________</u>
+  <br><br>
+  <h1>Educating Future Leaders</h1>
+  <p>
+    At Operation Brotherhood Montessori Center, each child is nurtured in the holistic method of Dr. Maria Montessori.
+  </p>
+</section>
+
+<div class="intro"></div>
+
+<section class="welcome-section">
+  <h2>Welcome to the O.B. Montessori Center</h2>
+  <p>
+    We are a progressive Pre-K to 12 co-educational school where we blend tradition and innovation to prepare a child for life.
+  </p>
+  <p>
+    Explore our programs and discover the vibrant community that makes OBMC a unique place for a child to grow and develop.
+  </p>
+</section>
+
+<h2 class="programs-title">PROGRAMS</h2>
+
+<div class="container">
+  <div class="row justify-content-center text-center">
+
+    <div class="col-md-4">
+      <div class="program-card" style="background-image:url('https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/856e1d32-be2f-41b1-b4a3-6dac248dae82/O.B.+Montessori+Center+Program+-+Casa?format=2500w');"></div>
+      <div class="program-label">Casa<br><small>(ages 3–5)</small></div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="program-card" style="background-image:url('https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/f578b9d4-3fe9-490a-a9ca-969578cf06bb/O.B.+Montessori+Center+Program+-+Grade+School+Primary?format=2500w');"></div>
+      <div class="program-label">Primary Grade School<br><small>(ages 6–8)</small></div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="program-card" style="background-image:url('https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/20f7dd81-6dfc-4b31-a83e-c0e2b3b1acc5/O.B.+Montessori+Center+Program+-+Grade+School+Intermediate?format=2500w');"></div>
+      <div class="program-label">Intermediate Grade School<br><small>(ages 9–12)</small></div>
+    </div>
+
+  </div>
+
+  <div class="row justify-content-center text-center mt-4">
+
+    <div class="col-md-4">
+      <div class="program-card" style="background-image:url('https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/9b942f9d-5526-43ea-b44a-f06254fc8571/O.B.+Montessori+Center+Program+-+Junior+High+School?format=2500w');"></div>
+      <div class="program-label">Junior High School<br><small>(ages 13–16)</small></div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="program-card" style="background-image:url('https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/94a0554e-f0cc-4c44-a0b2-7cb83b863254/O.B.+Montessori+Center+Program+-+Senior+High+School?format=2500w');"></div>
+      <div class="program-label">Senior High School<br><small>(ages 17–18)</small></div>
+    </div>
+
+  </div>
+</div>
+
+<h2 class="programs-title">CAMPUSES</h2>
+
+<div class="container">
+  <div class="row justify-content-center text-center">
+
+    <div class="col-md-4">
+      <div class="program-card" style="background-image:url('https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/42cc9679-9656-4904-b843-0554ac012475/O.B.+Montessori+Center+Angeles+Campus?format=2500w');"></div>
+      <div class="program-label">Angeles</div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="program-card" style="background-image:url('https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/0ac7bf3e-e1f0-47e7-b212-e24b8696f03c/O.B.+Montessori+Center+Fairview+Campus?format=2500w');"></div>
+      <div class="program-label">Fairview</div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="program-card" style="background-image:url('https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/158c4532-1ab3-4ce5-8ed4-f59ce7e847d2/O.B.+Montessori+Center+Greenhills+Campus?format=2500w');"></div>
+      <div class="program-label">Greenhills</div>
+    </div>
+
+  </div>
+
+  <div class="row justify-content-center text-center mt-4">
+
+    <div class="col-md-4">
+      <div class="program-card" style="background-image:url('https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/c4c28d4b-1195-400f-9ecb-ef207ac460cb/O.B.+Montessori+Center+LAS+PI%C3%91AS+CAMPUS?format=2500w');"></div>
+      <div class="program-label">Las Piñas</div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="program-card" style="background-image:url('https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/9e09a83b-d370-4734-92f3-7d23593a6757/O.B.+Montessori+Center+Sta.+Ana+Campus?format=2500w');"></div>
+      <div class="program-label">Sta. Ana</div>
+    </div>
+
+  </div>
+</div>
+
+<footer class="bg-light text-dark py-5 mt-5">
+  <div class="container text-center">
+    <h5>Contact Us</h5>
+    <p>
+      +63 2 8722 9720 to 26<br>
+      <u>info@obmontessori.edu.ph</u>
+    </p>
+    <h5>Location</h5>
+    <p>
+      Angeles City, Pampanga<br>
+      Fairview, Quezon City<br>
+      Greenhills, San Juan City<br>
+      B.F. Homes, Las Piñas City<br>
+      Sta. Ana, Manila City
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
+
+
 
